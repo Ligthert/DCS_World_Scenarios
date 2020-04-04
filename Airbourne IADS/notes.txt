@@ -1,0 +1,62 @@
+TODO:
+- Schrijf Mission
+- Maak screenshots van de site
+- Maak briefing af
+
+A-10C:
+- STPT 13-17 Stay Low (1000 & 1500)
+- Recommended to follow steerpoints, but going over normally is fine. As long as you keep low from STPT 14 and onwards.
+
+Air Defences:
+- SA2: Beslan & Nalchik
+- SA10: Mozdok & Mineralnye Vody
+
+
+-----
+Through diplomatic channels the Japanese embassy has recently contacted us ('MURICA!) about a very serious matter that needs resolving ASAP. As Russia is ramping up its international presence on the international market becoming the source of many manufactured goods and natural minerals. While this strenghtens the Russian position on the world stage surpassing China as the chief manufacturer of cheap tat nobody needs or actually wants, they have been covertly exporting cartoons to both the east and the west. As you all may know, this however is a privilege bestowed on and only on the proud nation of Japan. The proud nation of Japan started their search for the source of both unsanctioned and cheaper cartoons they sent all the ninja's they could spare to Russia to find their source. To their surprise Russia has a large deposit deep underground which is being pumped up North of Georgia, which luck has it we have a friendly base nearby with a bunch of planes able to deal with this.
+------
+Our primary objective is to disrupt the Russian operation of extracting Hentai-grade Animé.
+
+Tasks by priority:
+1) Destroy pumps near steerpoint named "TGTs"
+2) Destroy tanks near steerpoint named "TGTs"
+3) Targets of opportunities
+
+
+STPT:
+1 Fence In
+2 Border
+3 IP
+4 TGTs
+5 GTFO
+6 Border
+7 Fence Out
+8 127.0.0.1
+
+Radio Frequencies:
+
+Support:
+ - AWACS (AI): 252 Mhz
+ - AWACS (Player): 251 Mhz
+
+Vaziani Airbase:
+- Tower (AI): 140 Mhz
+- Tower (Player): 268 Mhz
+- Vaziani: 22X
+
+In-flight Frequencies per aircraft type:
+- A-10C: 124 Mhz
+- F-16C: 127 Mhz
+- F/A-18C: 305 Mhz
+- Mirage 2000: 130 Mhz
+
+(Optionally) In-flight Frequencies per aircraft role:
+- Groundpounding: 124 Mhz
+- CAP: 128 Mhz
+- SEAD: 129 Mhz
+
+
+A-10C: Hawg1
+F-16C: Dodge3
+F-18C: Uzi6
+m2k: Pontiac2
