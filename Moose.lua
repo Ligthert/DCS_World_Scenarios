@@ -1,4 +1,4 @@
-env.info( '*** MOOSE GITHUB Commit Hash ID: 2019-02-04T22:33:15.0000000Z-4236a899479605a82ac147ee78639563292748d4 ***' )
+env.info( '*** MOOSE GITHUB Commit Hash ID: 2018-11-14T18:03:42.0000000Z-ec53b89c695b999dec7775be5f7f7386368c052c ***' )
 env.info( '*** MOOSE STATIC INCLUDE START *** ' )
 
 --- Various routines
@@ -33899,39 +33899,6 @@ function STATIC:ReSpawnAt( Coordinate, Heading )
   
   SpawnStatic:ReSpawnAt( Coordinate, Heading )
 end
-
-
---- Returns true if the unit is within a @{Zone}.
--- @param #STATIC self
--- @param Core.Zone#ZONE_BASE Zone The zone to test.
--- @return #boolean Returns true if the unit is within the @{Core.Zone#ZONE_BASE}
-function STATIC:IsInZone( Zone )
-  self:F2( { self.StaticName, Zone } )
-
-  if self:IsAlive() then
-    local IsInZone = Zone:IsVec3InZone( self:GetVec3() )
-  
-    return IsInZone 
-  end
-  return false
-end
-
---- Returns true if the unit is not within a @{Zone}.
--- @param #STATIC self
--- @param Core.Zone#ZONE_BASE Zone The zone to test.
--- @return #boolean Returns true if the unit is not within the @{Core.Zone#ZONE_BASE}
-function STATIC:IsNotInZone( Zone )
-  self:F2( { self.StaticName, Zone } )
-
-  if self:IsAlive() then
-    local IsInZone = not Zone:IsVec3InZone( self:GetVec3() )
-    
-    self:T( { IsInZone } )
-    return IsInZone 
-  else
-    return false
-  end
-end
 --- **Wrapper** -- AIRBASE is a wrapper class to handle the DCS Airbase objects.
 -- 
 -- ===
@@ -58858,10 +58825,6 @@ do -- ZONE_CAPTURE_COALITION
     -- @param #ZONE_CAPTURE_COALITION self
     -- @param #number Delay
 
-    -- We check if a unit within the zone is hit.
-    -- If it is, then we must move the zone to attack state.
-    self:HandleEvent( EVENTS.Hit, self.OnEventHit )
-
     return self
   end
   
@@ -59105,21 +59068,6 @@ do -- ZONE_CAPTURE_COALITION
       self:ScheduleStop( self.ScheduleStatusZone )
     end
   end
-  
-  --- @param #ZONE_CAPTURE_COALITION self
-  -- @param Core.Event#EVENTDATA EventData The event data.
-  function ZONE_CAPTURE_COALITION:OnEventHit( EventData )
-  
-    local UnitHit = EventData.TgtUnit
-    
-    if UnitHit then
-      if UnitHit:IsInZone( self.Zone ) then
-        self:Attack()
-      end
-    end
-  
-  end
-  
   
 end
 
