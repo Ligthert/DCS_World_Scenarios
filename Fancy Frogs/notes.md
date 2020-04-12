@@ -1,0 +1,4 @@
+- ~~Update _moose.lua_~~
+- ~~Update _Fancy Frogs.lua_ to include the findings of The Airbourne IADS scenario~~
+- ~~Update the briefing that the human AWACS takes lead, otherwise somebody should~~
+- ~~Give the F-16C+F/A-18C the same name so the F-16s don't babysit the A-10s since its a community effort~~
