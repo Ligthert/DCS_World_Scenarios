@@ -1,7 +1,8 @@
 TODO:
-- ~~Preconfigured Frequencies for the Mirage~~
-- ~~Non-shitty loadout for the mirage~~
-- ~~Remove extreme weather conditions, cloud cover for now is good enough~~
+- Remove cloud-layer
+- nerf AI skill
+- reduce the number of enemy birds
+- Unfuck the AWACS
 
 --
 Through diplomatic channels the Japanese embassy has recently contacted us ('MURICA!) about a very serious matter that needs resolving ASAP. As Russia is ramping up its international presence on the international market becoming the source of many manufactured goods and natural minerals. While this strenghtens the Russian position on the world stage surpassing China as the chief manufacturer of cheap tat nobody needs or actually wants, they have been covertly exporting cartoons to both the east and the west. As you all may know, this however is a privilege bestowed on and only on the proud nation of Japan. The proud nation of Japan started their search for the source of both unsanctioned and cheaper cartoons they sent all the ninja's they could spare to Russia to find their source. To their surprise Russia has a large deposit deep underground which is being pumped up North of Georgia, which luck has it we have a friendly base nearby with a bunch of planes able to deal with this.
