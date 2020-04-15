@@ -1,5 +1,5 @@
 -- Setup the A2A dispatcher, and initialize it.
-A2ADispatcher = AI_A2A_GCICAP:NewWithBorder( { "RU EWR" }, { "RU Sqn" }, "RU Border", { "CAP Zone" }, 18, 15000, 60000, 150000, 30 )
+A2ADispatcher = AI_A2A_GCICAP:NewWithBorder( { "RU EWR" }, { "RU Sqn" }, "RU Border", { "CAP Zone" }, 6, 15000, 60000, 150000, 30 )
 
 -- A2ADispatcher:SetTacticalDisplay( true )
 
