@@ -85,5 +85,3 @@ ru_rat_5:Invisible()
 ru_rat_5:SetCoalition("sameonly")
 ru_rat_5:ATC_Messages(false)
 ru_rat_5:Spawn(5)
-
------- Sead Spawn
