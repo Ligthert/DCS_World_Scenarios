@@ -33,32 +33,32 @@ You will be facing off against:
 
 
 Frequencies - General:
- - Tower (AI): 258 MHz AM
- - Tower (Human): 259 MHz AM
+ - Tower (AI): 258.000 MHz AM
+ - Tower (Human): 259.000 MHz AM
  - TCN: N/A
  - ILS: N/A
- - AWACS (AI): 260 MHz AM
- - AWACS (Human): 261 MHz AM
+ - AWACS (AI): 260.000 MHz AM
+ - AWACS (Human): 261.000 MHz AM
  - Tactical: See AWACS
 
 Frequencies - Flights:
- - A-10C: 124 MHz AM
- - F-16C: 125 MHz AM
- - F/A-18C: 253 MHz AM
+ - A-10C: 124.000 MHz AM
+ - F-16C: 125.000 MHz AM
+ - F/A-18C: 253.000 MHz AM
 
 
 F/A-18C and F-16C - Radio channels:
 
-COMM 1
-Channel 1) 258 MHz AM - Tower (AI)
-Channel 2) 259 MHz AM - Tower (Human)
-Channel 3) 260 MHz AM - AWACS (AI)
-Channel 4) 261 MHz AM - AWACS (Human)
+COMM 1 (Uniform)
+Channel 1) 258.000 MHz AM - Tower (AI)
+Channel 2) 259.000 MHz AM - Tower (Human)
+Channel 3) 260.000 MHz AM - AWACS (AI)
+Channel 4) 261.000 MHz AM - AWACS (Human)
 
-COMM 2
-Channel 1) 124 MHz AM - A-10C
-Channel 2) 125 MHz AM - F-16C
-Channel 3) 126 MHz AM - F/A-18C
+COMM 2 (Victor)
+Channel 1) 124.000 MHz AM - A-10C
+Channel 2) 125.000 MHz AM - F-16C
+Channel 3) 126.000 MHz AM - F/A-18C
 
 
 Other notes:
