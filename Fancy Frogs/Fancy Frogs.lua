@@ -10,6 +10,7 @@ A2ADispatcher:SetDefaultFuelThreshold(0.20)
 -- A2ADispatcher:SetIntercept(900)
 A2ADispatcher:SetDefaultDamageThreshold(0.95)
 A2ADispatcher:SetOverhead(0.50)
+A2ADispatcher:SetDefaultCapTimeInterval(150,300)
 
 -- Kick off the Dispatcher
 A2ADispatcher:Start()
