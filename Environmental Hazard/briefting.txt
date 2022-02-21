@@ -1,0 +1,70 @@
+Situation:
+West-Ossetia has an over-representation of Russian hardware and cannot be part of the greater Georgia. Georgia and their allies have setup a taskforce in reducing the power West-Ossatia is able to project on the region.
+
+Unfortunately the budget was slashed due to aggressive money printing by the Fed/ECB, so they are doing thing with little intel and sub-optimal gear.
+
+Mission:
+
+Mission:
+Destruction of enemy assets at the Krasnodar Airport.
+
+AO:
+The Area of Operation is centered around Krasnodar. Due to the sudden nature of our operations, you will see a lot of civilian air-traffic in the AO. It is less than desirable, however with the power of AWACS and modern imaging technology packed into a TGP it should not be a problem to identify civilian aircrafts from REDFOR.
+
+Enemy:
+The enemy will have the following assets on the airfield
+- 2 x KA-50
+- 4 x Mig-31
+- 4 x BTR-80
+- 4 x BRDM-2
+- 2 x BMP3
+- 2 x SA-9 Streal 1 "Gaskin"
+- 1 x SA-19 Tunguska "Grison"
+- 1 x ZSU-23-4 Shilka "Gun Dish"
+- 1 x SA-8 Osa "Gecko"
+- X x Su-25T
+
+Some may be active, some not. Take the necessary precautions when engaging.
+
+Assets/Role:
+For this mission the following assets are allocated:
+- 4 x F-16C - HAVCAP CALLSIGN: Cowboy 1
+- 4 x A-10C - AI CALLSIGN: Pig 6
+- 1 x E-3A - GOD CALLSIGN: Overlord 5-1
+
+Loadouts are fixed. Rearming is permitted.
+
+Execution:
+- All elements will follow the designated flight plan
+- Cowboy 1 can fly into the AO at their own discretion, and in conjunction with Overlord 1 start weeding out enemy birds
+- Pig 6 is tasked with destroying all assets on the airfield
+
+All flights (but the E-3A) have the same steerpoints.
+
+1. Turn in
+2. Fence In
+3. IP
+4. Loiter
+5. Krasnodar Airport
+6. Exfil
+7. Fence out
+8. Almost there
+9. Line-up
+10. Land
+
+
+Radio Frequencies:
+
+Uniform:
+- Senaki-Kolkhi (AI): 261.000 MHz
+- Senaki-Kolkhi (Human): 262.000 MHz
+
+- AWACS (AI): 251.000 MHz
+- AWACS/Tactical (Human): 252.000 MHz
+
+- Tanker: 253.000 MHz
+- Tanker TACAN: 31X
+
+Victor:
+- Cowboy 1: 125.000 MHz
+- Pig 6: 124.000 MHz
