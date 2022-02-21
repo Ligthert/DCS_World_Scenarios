@@ -1,8 +1,8 @@
 TODO:
-- Relocate starting airfield
-- Redo-flightplan
 - Write briefing
 - Make pictures for briefing
+- Maak dump voor AWACS
+- Maak AWACS nuttig
 
 Load-outs:
 F-16C:
@@ -27,3 +27,16 @@ blablabla scud
 blablabla limited resources
 blablabla civilian traffic
 blablabla things
+
+
+-----
+1. Turn in
+2. Fence In
+3. IP
+4. Loiter
+5. Krasnodar Airport
+6. Exfil
+7. Fence out
+8. Almost there
+9. Line-up
+10. Land
