@@ -1,0 +1,163 @@
+Blindsided (Rev5 6.0.5.0):
+
+Co-operative mission supporting up to 46 player slots (2-6 players recommended default, 3-12 on difficult).
+Flyable aircraft:
+CAS (Air to ground) - 2x A-10C (Old), 3x A-10C II, 3x AH-64D, 2x AV-8B, 3x F-16, 3x F/A-18, 2x JF-17, 3x KA-50, 3x Mi-24P, 3x Su-25T
+CAP (Air to air) - 2x F-14B, 2x F-15C, 3x F-16, 3x F-18, 3x MiG-29, 2x M2000C
+CSAR (Search and rescue) - 2x Mi-8MTV, 2x UH-1H
+
+"In hopes that our countries may yet one day be in peace and working together again."
+
+- by Aviancer/DragonShadow
+  https://twitch.tv/aviancer
+  twitter.com/skyvian
+
+
+[Briefing room]
+(See Blindsided-Situation-*.jpg) 
+We have not received any word back from the eastern patrol, since they reported hearing heavy vehicles in the pass. We can only assume the worst.
+
+Twenty minutes ago we received confirmation that insurgent forces are attempting a surprise attack on the Batumi aerodrome. Be advised we have received reports that the insurgents are able to mount a credible anti-air threat, furthermore there are indications they may have the support of unknown airforces.
+
+US Specops are right now sending ahead a two man TACP unit, designation 'Ferret', to provide coordination for a counter attack on an insurgent outpost located due east. Before we can rid ourselves of the outpost though, we must succesfully defend Batumi from the insurgent forces closing in. Be aware that we are facing at least two groups heading in from the outpost.
+
+Local defense forces are engaged with light enemy units as I speak. Your aircraft have been fueled and armed, there is no time to waste, scramble!
+
+
+Aimed at: 
+Pilots reasonably comfortable with combat tasks and start up, moderate difficulty level.
+Pilots up for more challenge can enable higher difficulty at the beginning of the mission (Radio options, F10 Other).
+
+Featuring: 
+* Co-op and single player support. Note: Difficulty higher for single player.
+* Plenty of scripted events with radio traffic and detailing. Fully voice acted!
+* Combined operations of air to ground and air to air aircraft, all playing important but not interdependent roles (Set higher difficulty for best effect).
+* Adapting mission design: Air to ground, air to air and combat search and rescue operations are each an optional component of the mission.
+  All you need to do is fly the right aircraft and the mission commences.
+* Dynamically generated randomized air to air threats for the entire duration of the mission. You can't be sure where the enemy air assets will strike from.
+* Dynamically generated CSAR rescue operations for both stranded aircrews and vehicle crews.
+* Up-to-date tasking can be requested even if a player enters the mission in the middle of it. No more guessing what state the mission is in.
+* Choice of two difficulty levels.
+* Some more aggressive, scripted AI behaviour.
+* Some munitions restricted through the warehouse functionality for a proper challenge.
+* On the move troop deployments.
+* Airlifted JTAC available (but not necessary) for operations against the insurgent outpost.
+* Optional AFAC available for the defense phase of the mission.
+* Adapt to rapidly developing situations as you fight an enemy that fights back rather than passively waiting for you to attack.
+* Be a part of a team where your actions truly matter to the outcome of the mission.
+
+Revision 5 changes:
+- Now fully voice acted!
+- Added new player aircraft types.
+- Updated scripting and group pathing for modern DCS versions (2022).
+- Updated MIST library to 4.4.90 with a small custom fix.
+- Updated unit positions and added some objects to make finding some hostiles reasonable again.
+- Added hostile helicopter threats. Some of them captured.
+- Converted player aircraft to be from a multi-country coalition.
+- Updated player location related scripting to be free of hardcoded unit lists. Easier to mod in more aircraft.
+- Updated CAP activation scripting, and added radio trigger to allow disabling hostile CAP after start.
+- Added some further flavor to the beginning of the mission, including at Kobuleti.
+- Fixed some long-standing typos XD
+Version 6.0.5.0: 
+- Fixed available equipment at Batumi FARP.
+- Fixed defending BMP placement at Batumi.
+- Enforce multiplayer relevant mission options.
+
+Revision 4 changes:
+- Fixed the mission up to be compatible with latest DCS versions again.
+- Endless air to air war, scriptified randomized hostile air forces generation.
+- Added CSAR helicopters with dynamically generated CSAR taskings, 2x UH-1H and 2xMi8.
+- A-10C slots changed to 4, two new SU-25A slots added.
+- Improved tasking logic ported over from Two-Pin Hedgehog.
+- Re-balanced insurgent air forces for added variety and challenge. Bandit missile launch behaviour now more randomized as well.
+- Fix for insurgent air forces failing to engage blue aircraft in latest DCS versions.
+- Scriptified intro bombardment and various tests, leading to significantly less overhead from fewer conditionals.
+- Fixed insurgent leader phases end triggers and positionings.
+- Blue forces AWACS and tanker now enabled by default.
+- Added spare AWACS for blue forces that takes off on destruction of the initial one.
+- Updated weapon stores at both Batumi and Kobuleti to reflect mission changes.
+- Fixed briefing images that had started showing up dark in latest DCS versions.
+- Some skin changes for player aircraft for improved identifiability.
+- Updated briefing texts to reflect changes to mission, fixed some typos.
+- Added low civilian traffic for general paranoia and to keep players guessing on the missions last phase.
+- Other miscallaneous small fixes.
+
+Revision 3 changes:
+- Added 3x SU-27 with parallel CAP mission alongside CAS: Protect the airspace from enemy fighters and Batumi from air strikes.
+- If any SU-27 takes off, this will enable the CAP portion of the mission with randomized air threats.
+- Hostile air forces will be (temporarily) recalled after 10 minutes if no blue CAP is in the air.
+- Made aircraft unlimited, munitions still are limited (Better suited for open servers).
+- Marked any possible troop deployments along the road with a single Ural-375 to aid in spotting. 
+- Slightly improved Batumi air defense for some protection from insurgent CAP. This is still players job in the end.
+- Made mission intro more Epic and removed (already rather small) chance of a player being hit by tank rounds during start up.
+- Made clearer some locations at waypoints for SU-25T in briefing.
+- Unified blue coalitions waypoints to enable faster communication, now everyones waypoint 2 is Force and waypoint 4 is outpost.
+- Added scripting for players to be notified of their current tasking when entering an aircraft.
+- Higher difficulty level can now be enabled by host at any portion of the mission (Host needs to make judgement on whether players are in danger zones.)
+- AFAC Predator forced to 'no radar using' not to appear on RWR. DCS bug?
+- Fixed edge case where mission could not be completed after insurgent advance was already marked stalled, and troops still got deployed.
+- Fixed Predator AFAC speed and alttitude.
+- Fixed waypoint speeds for route navigating autopilots (You are still likely to get shot though).
+- Spoiler: Fix attempted on Georgian FSG Molniya not disappearing (replaced) when boarded.
+- Spoiler: Insurgent leader threatened zone doubled in size. Escape not allowed while any player still within zone.
+- Other miscellaneous small fixes and balancing.
+
+Revision 2 changes:
+- Extended gameplay to a three phase mission and new locations, "assassination by aircraft".
+- Added flyable aircrafts to total of 3xA-10C, 3xKA-50, 3xSU-25T.
+- Added user triggerable difficulty mode for groups larger than 2-3 players, or for more challenge. Affects the entire mission.
+- Added FARP Perth and Kobuleti airdrome as allied diverts.
+- Warehouse functionality and use of limited resources to beat the mission with.
+- Russian ground based reinforcements now visible on map to allow easier tracking of progress.
+- Improved TACP/JTAC positioning not to call bombs so often on it's own head, made some fixes to lasing.
+- Repositioning on the insurgent troops closest to Batumi airdrome.
+- Fixed problem with IL-76MD potentially keeping players from spawning.
+- Targets of opportunity :)
+- Optional AFAC assists in tracking attacking insurgent units.
+- Compatibility with KA-50 JTAC mod (AFAC 'Dodge' on 31.00MHZ FM, TACP 'Ferret' on 32.00MHz FM).
+- Removed special forces helo AI chatter from default radio channel.
+- Stall detection on insurgent attack (Driving around in circles, etc), after two hours defense objectives count as completed.
+- Replaced radio notifier sound with a more correct and smaller in size clip.
+- Eliminating 80% of deployed forward troops now sufficient for victory condition.
+- Miscallaneous scripting additions and fixes.
+
+Revision 1 changes:
+- More informative briefing.
+- Relaxed F2/F10 viewing to allow allies also.
+- Mission events will only begin once a player enters an aircraft, better support for standalone servers.
+- Fixed possibility of a group spawning next to a player.
+- Improved placement of the deployed insurgent troops to make them more reasonable to find.
+- Eliminating 85% of the deployed troops is now sufficient for the victory condition.
+- Fixed aggressive AI to be more reliable, also some other scripting.
+- Moved eastern aircraft support units into better cover to lessen likelyhood of being destroyed in initial attack.
+- Added another group of insurgents attacking from the outpost to keep up the pacing.
+- Added airlifted reinforcements for players to balance out the above.
+- Reinforcements will help with clearing insurgent infantry incase no KA-50's are piloted.
+- Added in a few small non-essential insurgent camps.
+- Added initial situation map.
+
+Voice actors:
+* Batumi Command: Rycuda
+* OH-58D "Chevy 1 1" pilot: Ridayah
+* Su-34 pilot: Luna
+* Ferret/Specops: Tinahacks
+
+Attributions:
+* AFH members who helped with testing Rev 5 release
+* Included some suggestions from OddLizard, a few from Frett92, Newspeedy and Hagios
+* Original flight testing with Hagios, Rev4 with DCS Finland members
+* Eagle Dynamics for creating the DCS series
+* Thanks to all who participated in beta tests and gave suggestions
+
+
+Release 07-05-2012: Initial building time about a week, on and off. Including learning the editor.
+Release 12-05-2012: Revision 1 a few more days.
+Release 11-09-2012: Revision 2 got bogged down due to RL and debugging.
+Release 19-03-2013: Revision 3 about two weeks. Including learning Lua.
+Release 15-01-2017: Revision 4, on and off in a period of three years.
+Release 28-07-2022: Revision 5, over several months of scripting, audio and testing work.
+
+
+License:
+Freeware, distribution allowed as is with all files and attributions intact.
+All rights otherwise reserved, unless specifically agreed upon. (It's ok to ask.)
